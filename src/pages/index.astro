@@ -1,0 +1,33 @@
+---
+import HomeLayout from "../layouts/layout.astro";
+import "../styles/styles.css";
+import Container from "../components/container.astro";
+import Banner from "../components/banner.astro";
+import Card from "../components/card.astro";
+import Card2 from "../components/card2.astro";
+import Card3 from "../components/card3.astro";
+import Lock from "../components/lock.astro";
+import Newsletter from "../components/newsletter.astro";
+---
+
+<HomeLayout title="Home Page">
+  <Container />
+  <h1 class="intro">With a wide range of over 2000+ Recipes!</h1>
+  <h1 class="recipeintro">Indian Recipes</h1>
+  <div class="row">
+    <Banner />
+    <Card />
+    <Card />
+    <Card />
+    <h1 class="umm">Western Recipes</h1>
+    <Card2 />
+    <Card2 />
+    <Card2 />
+    <h1 class="umm">Chinese Recipes</h1>
+    <Lock />
+    <Card3 />
+    <Card3 />
+    <Card3 />
+  </div>
+  <Newsletter />
+</HomeLayout>

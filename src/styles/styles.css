@@ -1,0 +1,218 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins";
+}
+
+body {
+  background: #e5e5e5;
+}
+
+nav {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  color: black;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+}
+
+span {
+  color: yellow;
+  font-size: 35px;
+  line-height: 80px;
+  font-weight: bold;
+  padding-right: 500px;
+}
+
+button {
+  margin-right: 20px;
+  padding: 10px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  display: inline;
+  margin-top: 9px;
+}
+
+.sign-btn {
+  color: black;
+  border: 2px solid black;
+}
+
+.login-btn {
+  color: black;
+}
+
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.container {
+  background-color: #694238;
+  width: 90%;
+  height: 10%;
+  margin-top: 40px;
+  border-radius: 33px;
+}
+
+.bosscontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.containerheading {
+  color: white;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  margin-top: 70px;
+  margin-left: 40px;
+  margin-right: 0;
+  float: left;
+}
+
+.containerp {
+  margin-top: 50px;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+  margin-left: 40px;
+  margin-top: 150px;
+  display: block;
+}
+
+.pic {
+  float: right;
+  height: 350px;
+  width: 400px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.intro {
+  margin-top: 30px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.bannerpic {
+  margin-top: 10px;
+  height: 580px;
+  width: 175px;
+}
+
+.recipeintro {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  margin-right: 200px;
+  font-weight: 800;
+}
+
+.card {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.dishpic {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 5px;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+.herewegoagain {
+  margin-bottom: 10px;
+}
+
+.umm {
+  font-weight: 800;
+  margin-left: 260px;
+}
+
+.news {
+  background-color: #ffffff;
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.idk {
+  font-size: 20px;
+  text-align: center;
+}
+
+.fakeinput {
+  background-color: #2977f5;
+  width: 45%;
+  height: 10%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.placeholder {
+  align-items: left;
+  margin-left: 20px;
+}
+
+.btn {
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
